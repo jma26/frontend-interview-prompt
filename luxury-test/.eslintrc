@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "linebreak-style": 0,
+    "prettier/prettier": "error"
+  }
+}
