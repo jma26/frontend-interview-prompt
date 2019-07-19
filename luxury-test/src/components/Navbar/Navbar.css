@@ -1,0 +1,27 @@
+.Navbar {
+  width: 100%;
+}
+
+.Navbar__appbar {
+  padding-left: 32px;
+  padding-right: 8px;
+}
+
+.Navbar__search-input {
+  margin-left: 16px;
+}
+
+.Navbar__profile-container {
+  margin-left: auto;
+  height: 100%;
+}
+
+.Navbar__profile-image {
+  height: 64px;
+  margin-right: 16px;
+}
+
+.Navbar__chevron-down-icon {
+  color: #FFF;
+  font-size: 12px;
+}

@@ -1,0 +1,128 @@
+.Sidebar {
+  background-color: #2A333E;
+  width: 20%;
+}
+
+.Sidebar__appbar {
+  padding-left: 16px;
+}
+
+.Sidebar__toolbar {
+  height: 64px;
+}
+
+.Sidebar__gray-box {
+  background-color: #929292;
+  width: 100%;
+  height: 50%;
+}
+
+.Sidebar__icon-menu-btn.MuiIconButton-root {
+  padding: 16px;
+}
+
+.Sidebar__menu-icon {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.Sidebar__section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar__section-1 {
+  margin-top: 40px;
+}
+
+.Sidebar__section-2, .Sidebar__section-3, .Sidebar__section-4, .Sidebar__section-5 {
+  margin-top: 32px;
+}
+
+.Sidebar__section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.Sidebar__content-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Sidebar__section i {
+  font-size: 16px;
+}
+
+.Sidebar__section .Sidebar__chevron-icon {
+  font-size: 12px;
+}
+
+.Sidebar__section p {
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.Sidebar__section * {
+  color: #95B0CB;
+}
+
+.Sidebar__section:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.Sidebar__section i:hover {
+  color: #5DC3E6;
+}
+
+.Sidebar__section.active {
+  background-color: #FFF;
+  padding: 16px 0px 16px 16px;
+}
+
+.Sidebar__section.active i {
+  color: #5DC3E6;
+}
+
+.Sidebar__section.active p {
+  color: #000;
+}
+
+.Sidebar__active-selector {
+  background-color: #5DC3E6;
+  width: 4px;
+  height: 18px;
+}
+
+.Sidebar__circle--yellow {
+  color: #FFC841;
+}
+
+.Sidebar__circle--red {
+  color: #FC5047;
+}
+
+.Sidebar__circle--purple {
+  color: #967ADC;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Sidebar {
+    width: 50px;
+  }
+  .Sidebar__content-container p {
+    display: none;
+  }
+  .Sidebar__chevron-icon {
+    display: none;
+  }
+  .Sidebar__appbar {
+    padding: 0px;
+  }
+  .Sidebar__gray-box {
+    display: none;
+  }
+}
