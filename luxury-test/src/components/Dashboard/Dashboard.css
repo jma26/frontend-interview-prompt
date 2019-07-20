@@ -1,0 +1,43 @@
+.Dashboard {
+  background-color: #F0F4F8;
+  width: 100%;
+}
+
+.Dashboard__container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.Dashboard__headline {
+  color: #818690;
+  font-weight: 300;
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.Dashboard__date-range-picker {
+  background-color: #30B5E0;
+}
+
+.Dashboard__date-range-picker {
+  border-radius: 4px;
+}
+
+.Dashboard__date-range-picker .MuiButtonBase-root .MuiButton-label {
+  color: #FFF;
+  font-weight: 300;
+  padding: 8px 16px;
+}
+
+.Dashboard__sub-headline {
+  color: #B9B5BE;
+  font-weight: 500;
+  margin-left: 32px;
+}
+
+.Dashboard__chevron-down-icon {
+  font-size: 12px;
+  margin-left: 16px;
+}
