@@ -1,0 +1,22 @@
+.Footer {
+  height: 49px;
+}
+
+.Footer-container {
+  background: linear-gradient(#E4E6E9, #F4F6F9, #F2F4F7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-left: 32px;
+  padding-right: 16px;
+}
+
+.Footer__copyright-credit {
+  color: #BBBFCB;
+  font-size: 14px;
+}
+
+.Footer .fa-chevron-up {
+  color: #95B0CB;
+}
