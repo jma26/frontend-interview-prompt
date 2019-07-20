@@ -1,0 +1,4 @@
+[build]
+base = "luxury-test/"
+publish = "luxury-test/build/"
+command = "npm run build"
