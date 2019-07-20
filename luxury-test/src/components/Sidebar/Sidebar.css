@@ -74,7 +74,7 @@
   color: #000;
 }
 
-.Sidebar__section i:hover {
+.Sidebar__section:hover p, .Sidebar__section:hover i {
   color: #5DC3E6;
 }
 
